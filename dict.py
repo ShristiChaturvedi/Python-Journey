@@ -1,0 +1,14 @@
+marks={
+    "Maths":23,
+    "Science":40,
+    "Hindi":100,
+    "English":45
+}
+print(marks.items())
+print(marks.keys())
+print(marks.values())
+marks.update({"Maths":65,"SST":78})
+print(marks.items())
+print(marks.get("Maths"))
+print(marks.get("EVS"))
+print(len(marks))
